@@ -37,3 +37,18 @@ backend/
 ```
 
 Puedes inspeccionar los archivos dentro de `backend/app/services` para ver mi manejo de **Type Hints**, diseño de clases, manejo de excepciones y documentación técnica integrada.
+
+
+## 📸 Arquitectura y Resultados Visuales
+
+Para ilustrar el impacto y el diseño de la solución, aquí presento el flujo de datos y simplificación de procesos visualmente:
+
+### Ingesta simple e intuitiva con los procesos de limpieza y deteccion de integridad ocultos pero con auditabilidad visible:
+<img width="1439" height="765" alt="Captura de pantalla 2026-04-02 150100" src="https://github.com/user-attachments/assets/8e883e41-c1d5-44d7-999e-c061f7b64b5d" />
+
+### Deteccion avanzada del tipo de archivo y sus hojas:
+<img width="620" height="707" alt="Captura de pantalla 2026-04-08 185948" src="https://github.com/user-attachments/assets/af93fd10-b679-4810-ae06-43d99ad484d5" />
+
+### Historial activo en tiempo real y previsualizacion de los datos limpios y eestructurados:
+<img width="1313" height="670" alt="Captura de pantalla 2026-04-09 235956" src="https://github.com/user-attachments/assets/58148c4f-a33d-44cb-a56b-3ce42b0cc869" />
+
