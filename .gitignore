@@ -1,0 +1,24 @@
+# Archivos compilados en Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos IDE y OS
+.vscode/
+.idea/
+.DS_Store
+
+# Datos temporales de prueba (No subir datos crudos nunca)
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Logs
+logs/
+*.log

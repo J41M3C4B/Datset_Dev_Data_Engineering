@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  api:
+    build: 
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - LOG_LEVEL=DEBUG
+    volumes:
+      - ./backend:/app/backend
+    depends_on:
+      - cache
+
+  cache:
+    image: redis:6.2-alpine
+    ports:
+      - "6379:6379"
